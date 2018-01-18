@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+
+  Created by Adam Yanalunas on 3/28/14.
+*/
+
+"healthnotifier.titles.account" = "Account";
+"healthnotifier.titles.my-account" = "My Account";
+"healthnotifier.titles.enter-code" = "Enter Code";
+"healthnotifier.titles.history" = "History";
+"healthnotifier.titles.nearby" = "Search";
+"healthnotifier.titles.scan" = "Scan";
+"healthnotifier.titles.document" = "Document";
+"healthnotifier.titles.more" = "More";
+
+"healthnotifier.button.cancel" = "Cancel";
+"healthnotifier.button.dismiss" = "Dismiss";
+"healthnotifier.button.enter-code" = "Enter Code";
+"healthnotifier.button.logout" = "Logout";
+"healthnotifier.button.submit" = "Submit";
+"healthnotifier.button.find-patient" = "Find Patient";
+
+"healthnotifier.validation.code.invalid.title" = "Invalid LifeSticker";
+"healthnotifier.validation.code.invalid.message" = "That is not a valid LifeSticker";
+"healthnotifier.validation.code.characters-remaining" = "%lu %@ remaining";
+"healthnotifier.validation.code.character.single" = "character";
+"healthnotifier.validation.code.character.multiple" = "characters";
+
+"healthnotifier.lookup.error" = "Lookup Error";
+"healthnotifier.lookup.error.lifesquare" = "No account was found with the given LifeSticker code.";
+
+"healthnotifier.nearby.error" = "Search Error";
+"healthnotifier.nearby.error.generic" = "There was an error searching for patients.";
+
+"healthnotifier.patient.error" = "Patient error";
+"healthnotifier.patient.error.loading-failed" = "Patient information failed to load";
+"healthnotifier.patient.error.unknown-lifesquare-location" = "Unknown";
+
+"healthnotifier.session.logout" = "Really log out of HealthNotifier?";
+"healthnotifier.session.login.failed" = "Login failed";
+"healthnotifier.session.login.error" = "There was an error logging in. Please check your credentials and try again.";
+"healthnotifier.session.reminder" = "Reminder was not sent";

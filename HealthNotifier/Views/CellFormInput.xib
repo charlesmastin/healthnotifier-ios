@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellFormInput" id="hPu-VS-vft" customClass="LSQCellFormInput" customModule="HealthNotifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hPu-VS-vft" id="07o-gx-BOa">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="55.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DiD-o9-kB2" customClass="FloatLabelTextField" customModule="HealthNotifier" customModuleProvider="target">
+                        <rect key="frame" x="8" y="6" width="456" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="gcd-sS-Xf4"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label Here" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTT-tY-V9i">
+                        <rect key="frame" x="16" y="23" width="61.5" height="14.5"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="leadingMargin" secondItem="RTT-tY-V9i" secondAttribute="leading" constant="-36" id="2Ds-qS-fQf">
+                        <variation key="widthClass=compact" constant="-8"/>
+                    </constraint>
+                    <constraint firstItem="DiD-o9-kB2" firstAttribute="leading" secondItem="07o-gx-BOa" secondAttribute="leadingMargin" constant="240" id="4Mb-Jb-4NA">
+                        <variation key="widthClass=compact" constant="0.0"/>
+                    </constraint>
+                    <constraint firstItem="DiD-o9-kB2" firstAttribute="centerY" secondItem="RTT-tY-V9i" secondAttribute="centerY" id="F3M-ZW-qaQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="DiD-o9-kB2" secondAttribute="trailing" constant="36" id="IGi-tA-SLl">
+                        <variation key="widthClass=compact" constant="8"/>
+                    </constraint>
+                    <constraint firstItem="DiD-o9-kB2" firstAttribute="top" secondItem="07o-gx-BOa" secondAttribute="top" constant="6" id="Q8s-NK-BtM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="input" destination="DiD-o9-kB2" id="ykz-qb-iya"/>
+                <outlet property="label" destination="RTT-tY-V9i" id="um7-XE-Mfv"/>
+            </connections>
+            <point key="canvasLocation" x="-312" y="0.0"/>
+        </tableViewCell>
+    </objects>
+</document>

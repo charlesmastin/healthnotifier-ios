@@ -1,0 +1,24 @@
+
+/* Class = "IBUIViewController"; title = "Nearby"; ObjectID = "0ZT-Qq-lny"; */
+"0ZT-Qq-lny.title" = "Nearby";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "CfL-SY-1tD"; */
+"CfL-SY-1tD.title" = "Item";
+
+/* Class = "IBUIViewController"; title = "Account"; ObjectID = "UNR-ib-1vW"; */
+"UNR-ib-1vW.title" = "Account";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "dQI-PY-c16"; */
+"dQI-PY-c16.title" = "Item";
+
+/* Class = "IBUITabBarItem"; title = "Item"; ObjectID = "pFd-HX-mcy"; */
+"pFd-HX-mcy.title" = "Item";
+
+/* Class = "IBUIViewController"; title = "Scan"; ObjectID = "tAF-Yt-spP"; */
+"tAF-Yt-spP.title" = "Scan";
+
+/* Class = "IBUIViewController"; title = "History"; ObjectID = "tje-dz-GqV"; */
+"tje-dz-GqV.title" = "History";
+
+/* Class = "IBUITabBarItem"; title = "Scan"; ObjectID = "umB-Yg-a1T"; */
+"umB-Yg-a1T.title" = "Scan";

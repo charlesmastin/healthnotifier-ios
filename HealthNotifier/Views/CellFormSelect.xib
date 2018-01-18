@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellFormSelect" id="4wc-qY-uOh" customClass="LSQCellFormSelect" customModule="HealthNotifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="4wc-qY-uOh" id="UiA-HY-cYS">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="55.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL TOWN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lB-XO-CdV">
+                        <rect key="frame" x="16" y="12" width="105" height="33.5"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleCaption1"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="value repr town" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byR-1k-4FX">
+                        <rect key="frame" x="128" y="12" width="344" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sl9-YI-qGS" customClass="FloatLabelTextField" customModule="HealthNotifier" customModuleProvider="target">
+                        <rect key="frame" x="16" y="6" width="464" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="kh6-ap-nT3"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="sl9-YI-qGS" firstAttribute="top" secondItem="UiA-HY-cYS" secondAttribute="top" constant="6" id="1nm-cD-V2F"/>
+                    <constraint firstAttribute="trailing" secondItem="sl9-YI-qGS" secondAttribute="trailing" id="5pT-pz-MFQ"/>
+                    <constraint firstItem="byR-1k-4FX" firstAttribute="leading" secondItem="UiA-HY-cYS" secondAttribute="leadingMargin" constant="240" id="JRv-fK-Pc1">
+                        <variation key="widthClass=compact" constant="120"/>
+                    </constraint>
+                    <constraint firstItem="4lB-XO-CdV" firstAttribute="baseline" secondItem="byR-1k-4FX" secondAttribute="baseline" id="Mc7-eU-NJf"/>
+                    <constraint firstItem="4lB-XO-CdV" firstAttribute="leading" secondItem="UiA-HY-cYS" secondAttribute="leadingMargin" constant="36" id="SnX-od-oQK">
+                        <variation key="widthClass=compact" constant="8"/>
+                    </constraint>
+                    <constraint firstAttribute="bottomMargin" secondItem="4lB-XO-CdV" secondAttribute="bottom" constant="2" id="a7Z-ax-q7j"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="byR-1k-4FX" secondAttribute="trailing" id="aRp-Gy-qlT"/>
+                    <constraint firstItem="byR-1k-4FX" firstAttribute="leading" secondItem="4lB-XO-CdV" secondAttribute="trailing" constant="7" id="bBn-cv-8ed"/>
+                    <constraint firstItem="sl9-YI-qGS" firstAttribute="leading" secondItem="UiA-HY-cYS" secondAttribute="leading" constant="16" id="evo-Eh-2U8"/>
+                    <constraint firstItem="4lB-XO-CdV" firstAttribute="top" secondItem="byR-1k-4FX" secondAttribute="top" id="fUW-Da-g0B"/>
+                    <constraint firstItem="4lB-XO-CdV" firstAttribute="top" secondItem="UiA-HY-cYS" secondAttribute="topMargin" constant="4" id="zla-tS-V69"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="4lB-XO-CdV" id="yuq-g6-BlA"/>
+                <outlet property="label2" destination="sl9-YI-qGS" id="B6r-KQ-rUL"/>
+                <outlet property="span" destination="byR-1k-4FX" id="uCf-2y-UZY"/>
+            </connections>
+            <point key="canvasLocation" x="94" y="76"/>
+        </tableViewCell>
+    </objects>
+</document>

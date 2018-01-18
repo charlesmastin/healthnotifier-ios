@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellFormDatePicker" id="he2-X7-BzO" customClass="LSQCellFormDatePicker" customModule="HealthNotifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="56"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="he2-X7-BzO" id="pac-JY-08M">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="55.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABEL TOWN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2xh-rU-Oyb">
+                        <rect key="frame" x="44" y="12" width="105" height="33.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="105" id="kTF-vj-Wqm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="value repr town" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VWA-gd-L7K">
+                        <rect key="frame" x="248" y="12" width="99.5" height="32.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iZd-Za-ygs" customClass="FloatLabelTextField" customModule="HealthNotifier" customModuleProvider="target">
+                        <rect key="frame" x="16" y="6" width="464" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="2w3-ru-dLF"/>
+                        </constraints>
+                        <nil key="textColor"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="2xh-rU-Oyb" secondAttribute="bottom" constant="2" id="9cm-RO-Ea2"/>
+                    <constraint firstItem="VWA-gd-L7K" firstAttribute="leading" secondItem="pac-JY-08M" secondAttribute="leadingMargin" constant="240" id="JRA-1Y-Fzl">
+                        <variation key="widthClass=compact" constant="120"/>
+                    </constraint>
+                    <constraint firstItem="2xh-rU-Oyb" firstAttribute="top" secondItem="pac-JY-08M" secondAttribute="topMargin" constant="4" id="Ja1-4I-wal"/>
+                    <constraint firstItem="2xh-rU-Oyb" firstAttribute="baseline" secondItem="VWA-gd-L7K" secondAttribute="baseline" id="SOr-g1-cnx"/>
+                    <constraint firstItem="2xh-rU-Oyb" firstAttribute="top" secondItem="VWA-gd-L7K" secondAttribute="top" id="T7q-CR-iQl"/>
+                    <constraint firstItem="2xh-rU-Oyb" firstAttribute="leading" secondItem="pac-JY-08M" secondAttribute="leadingMargin" constant="36" id="UAL-hl-RGd">
+                        <variation key="widthClass=compact" constant="8"/>
+                    </constraint>
+                    <constraint firstAttribute="trailing" secondItem="iZd-Za-ygs" secondAttribute="trailing" id="UNP-B9-Pr6"/>
+                    <constraint firstItem="iZd-Za-ygs" firstAttribute="leading" secondItem="pac-JY-08M" secondAttribute="leading" constant="16" id="egC-db-3Fv"/>
+                    <constraint firstItem="iZd-Za-ygs" firstAttribute="top" secondItem="pac-JY-08M" secondAttribute="top" constant="6" id="iVy-W3-FGw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="2xh-rU-Oyb" id="cRN-5u-iUO"/>
+                <outlet property="label2" destination="iZd-Za-ygs" id="4WB-Ik-SoU"/>
+                <outlet property="span" destination="VWA-gd-L7K" id="C9W-X8-Y5w"/>
+            </connections>
+            <point key="canvasLocation" x="41.5" y="76"/>
+        </tableViewCell>
+    </objects>
+</document>

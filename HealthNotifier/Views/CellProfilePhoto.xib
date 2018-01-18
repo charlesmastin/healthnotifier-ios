@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellProfilePhoto" rowHeight="134" id="gkT-lN-ho6" customClass="LSQProfileVitalsTableViewCell" customModule="HealthNotifier" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gkT-lN-ho6" id="cG4-cA-kec">
+                <frame key="frameInset" width="375" height="133"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zy6-6x-HzE">
+                        <constraints>
+                            <constraint firstAttribute="width" constant="132" id="2Oq-Gl-jm3"/>
+                            <constraint firstAttribute="height" constant="132" id="bQt-uc-JFD"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zy6-6x-HzE" firstAttribute="centerX" secondItem="cG4-cA-kec" secondAttribute="centerX" id="MqJ-MU-ilA"/>
+                    <constraint firstItem="zy6-6x-HzE" firstAttribute="centerY" secondItem="cG4-cA-kec" secondAttribute="centerY" id="ZSQ-Ze-j3J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="profilePhoto" destination="zy6-6x-HzE" id="FWD-xm-XYr"/>
+            </connections>
+            <point key="canvasLocation" x="-113" y="-508"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,1134 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5606EB3A1ED8AAF000D21553 /* LSQTouchAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5606EB391ED8AAF000D21553 /* LSQTouchAuthManager.swift */; };
+		560E3DFA1C88BD2C00A907B6 /* LSQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560E3DF91C88BD2C00A907B6 /* LSQ.swift */; };
+		561271751C8FA7C100D49B31 /* LSQHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561271741C8FA7C100D49B31 /* LSQHistoryTableViewCell.swift */; };
+		561271771C8FA8D200D49B31 /* LSQLifesquareDetailsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561271761C8FA8D200D49B31 /* LSQLifesquareDetailsViewCell.swift */; };
+		56143BF81DA2CD1E0030A539 /* LSQExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56143BF71DA2CD1E0030A539 /* LSQExtensions.swift */; };
+		561588111DBF408700CB02B9 /* LSQEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561588101DBF408700CB02B9 /* LSQEditProfileViewController.swift */; };
+		561588131DBFFD7E00CB02B9 /* CellFormInput.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561588121DBFFD7E00CB02B9 /* CellFormInput.xib */; };
+		561588171DBFFFAE00CB02B9 /* LSQCellFormInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561588161DBFFFAE00CB02B9 /* LSQCellFormInput.swift */; };
+		561588191DC000BA00CB02B9 /* CellFormSelect.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561588181DC000BA00CB02B9 /* CellFormSelect.xib */; };
+		5615881B1DC0010F00CB02B9 /* LSQCellFormSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615881A1DC0010F00CB02B9 /* LSQCellFormSelect.swift */; };
+		5615881D1DC0025300CB02B9 /* LSQCellFormCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5615881C1DC0025300CB02B9 /* LSQCellFormCheckbox.swift */; };
+		5615881F1DC002A300CB02B9 /* CellFormCheckbox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5615881E1DC002A300CB02B9 /* CellFormCheckbox.xib */; };
+		561588211DC0139B00CB02B9 /* LSQFormSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561588201DC0139B00CB02B9 /* LSQFormSelectViewController.swift */; };
+		561768FB1DE3D24F005AD40D /* LSQConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561768FA1DE3D24F005AD40D /* LSQConfirmViewController.swift */; };
+		561768FD1DE4F1D3005AD40D /* LSQNetworkCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561768FC1DE4F1D3005AD40D /* LSQNetworkCollectionViewController.swift */; };
+		561768FF1DE4F1F1005AD40D /* LSQNetworkSearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561768FE1DE4F1F1005AD40D /* LSQNetworkSearchResultsViewController.swift */; };
+		561EB0E51DF1516B0000B010 /* LSQUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561EB0E41DF1516B0000B010 /* LSQUser.swift */; };
+		561F1EE11F63417C003D29BF /* LSQRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EE01F63417C003D29BF /* LSQRouter.swift */; };
+		561F1EE31F6341FE003D29BF /* LSQRoutesOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EE21F6341FE003D29BF /* LSQRoutesOnboarding.swift */; };
+		561F1EE51F634253003D29BF /* LSQRoutesAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EE41F634253003D29BF /* LSQRoutesAuth.swift */; };
+		561F1EE71F63426A003D29BF /* LSQRoutesPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EE61F63426A003D29BF /* LSQRoutesPatient.swift */; };
+		561F1EE91F634277003D29BF /* LSQRoutesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EE81F634277003D29BF /* LSQRoutesProvider.swift */; };
+		561F1EEB1F634470003D29BF /* LSQRoutesForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EEA1F634470003D29BF /* LSQRoutesForms.swift */; };
+		561F1EED1F6345C0003D29BF /* LSQRoutesPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EEC1F6345C0003D29BF /* LSQRoutesPermissions.swift */; };
+		561F1EEF1F634604003D29BF /* LSQRoutesPatientNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EEE1F634604003D29BF /* LSQRoutesPatientNetwork.swift */; };
+		561F1EF11F634662003D29BF /* LSQRoutesCareplans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EF01F634662003D29BF /* LSQRoutesCareplans.swift */; };
+		561F1EF31F6346E9003D29BF /* LSQRoutesLifesquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EF21F6346E9003D29BF /* LSQRoutesLifesquare.swift */; };
+		561F1EF51F63474C003D29BF /* LSQRoutesAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EF41F63474C003D29BF /* LSQRoutesAccount.swift */; };
+		561F1EF71F63492B003D29BF /* LSQRoutesTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EF61F63492B003D29BF /* LSQRoutesTabs.swift */; };
+		561F1EF91F634C09003D29BF /* LSQRoutesNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561F1EF81F634C09003D29BF /* LSQRoutesNetworking.swift */; };
+		56245ECD1DD26A0300449848 /* LSQCellPrivacyRestrictedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56245ECC1DD26A0300449848 /* LSQCellPrivacyRestrictedItem.swift */; };
+		56245ECF1DD26A2300449848 /* LSQCellEmptyCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56245ECE1DD26A2300449848 /* LSQCellEmptyCollection.swift */; };
+		56245ED11DD2873100449848 /* LSQModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56245ED01DD2873100449848 /* LSQModels.swift */; };
+		562977441DDE21220007AA5D /* LSQCheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562977431DDE21220007AA5D /* LSQCheckoutViewController.swift */; };
+		562977481DDE28690007AA5D /* LSQCheckoutSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562977471DDE28690007AA5D /* LSQCheckoutSuccessViewController.swift */; };
+		562C01901C82D0D5003A2C9C /* LSQAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562C018F1C82D0D5003A2C9C /* LSQAppDelegate.swift */; };
+		562D6B091F65EB1300C0F0E7 /* LSQOnboardingSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562D6B081F65EB1300C0F0E7 /* LSQOnboardingSuccessViewController.swift */; };
+		562F79531DF8EE4C0048F105 /* LSQLifesquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F79521DF8EE4C0048F105 /* LSQLifesquareViewController.swift */; };
+		562F79551DF92FF60048F105 /* LSQProfileEmergencyContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F79541DF92FF60048F105 /* LSQProfileEmergencyContainerViewController.swift */; };
+		562F79571DF9302E0048F105 /* LSQProfileEmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F79561DF9302E0048F105 /* LSQProfileEmergencyViewController.swift */; };
+		562F79591DF94BBB0048F105 /* LSQCollectionBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F79581DF94BBB0048F105 /* LSQCollectionBaseViewController.swift */; };
+		562F795B1DF970DD0048F105 /* LSQPickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F795A1DF970DD0048F105 /* LSQPickerDelegate.swift */; };
+		5635A2881DB56FC500B7FD59 /* LSQVitalsPhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5635A2871DB56FC500B7FD59 /* LSQVitalsPhotoTableViewCell.swift */; };
+		5635A28A1DB5B2D000B7FD59 /* CellProfileSummary.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5635A2891DB5B2D000B7FD59 /* CellProfileSummary.xib */; };
+		5635A28C1DB5B7FB00B7FD59 /* CellProfilePhoto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5635A28B1DB5B7FB00B7FD59 /* CellProfilePhoto.xib */; };
+		56446FBB1C9CB9AD0077F7B3 /* LSQDurationTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56446FBA1C9CB9AD0077F7B3 /* LSQDurationTimer.swift */; };
+		564A47F41E5BBA92008FF5CE /* LSQScanImportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A47F31E5BBA92008FF5CE /* LSQScanImportViewController.swift */; };
+		564A7F971F60C6A0009215C6 /* LSQPatientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A7F961F60C6A0009215C6 /* LSQPatientManager.swift */; };
+		564C769E1DAEAB520058E1F0 /* LSQEmergencyContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C769D1DAEA6960058E1F0 /* LSQEmergencyContactViewController.swift */; };
+		564C76A01DAEB3A70058E1F0 /* LSQInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C769F1DAEB3A70058E1F0 /* LSQInsuranceViewController.swift */; };
+		564C76A21DAEB5F30058E1F0 /* LSQHospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564C76A11DAEB5F30058E1F0 /* LSQHospitalViewController.swift */; };
+		564FDE961DA84C6100045852 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564FDE951DA84C6100045852 /* Profile.storyboard */; };
+		56506F251E31781D00F98ECC /* CellFormInputMultiline.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56506F241E31781D00F98ECC /* CellFormInputMultiline.xib */; };
+		56506F271E317B5F00F98ECC /* LSQCellFormInputMultiline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56506F261E317B5F00F98ECC /* LSQCellFormInputMultiline.swift */; };
+		5651FC7D1F69A09300CB9BB3 /* Lifesquare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5651FC7C1F69A09300CB9BB3 /* Lifesquare.storyboard */; };
+		565210B51F5B3F1A006CBD09 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565210B41F5B3F1A006CBD09 /* FloatLabelTextField.swift */; };
+		565210B71F5B3F4F006CBD09 /* FloatLabelTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565210B61F5B3F4F006CBD09 /* FloatLabelTextView.swift */; };
+		56550C661E2EC33D007F38D0 /* CellFormHeightPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56550C651E2EC33D007F38D0 /* CellFormHeightPicker.xib */; };
+		56550C681E2EC3C0007F38D0 /* LSQCellFormHeightPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56550C671E2EC3C0007F38D0 /* LSQCellFormHeightPicker.swift */; };
+		56550C6A1E2EC51F007F38D0 /* LSQFormHeightPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56550C691E2EC51F007F38D0 /* LSQFormHeightPickerViewController.swift */; };
+		5657FF021F6A2C20001F0941 /* LSQAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5657FF011F6A2C20001F0941 /* LSQAppearanceManager.swift */; };
+		565960AE1C90079600AF1003 /* LSQHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565960AD1C90079600AF1003 /* LSQHistoryViewController.swift */; };
+		565A259D1F6B40FD009A6DE2 /* LSQOnboardingConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565A259C1F6B40FD009A6DE2 /* LSQOnboardingConfirmViewController.swift */; };
+		5665E8D41DC93CFD00E9FF4C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665E8D31DC93CFD00E9FF4C /* Utils.swift */; };
+		5665E8D61DC9469B00E9FF4C /* LSQEditAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5665E8D51DC9469B00E9FF4C /* LSQEditAccountViewController.swift */; };
+		566722551DF1F6F30060E46F /* LSQCodeEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566722541DF1F6F30060E46F /* LSQCodeEntryViewController.swift */; };
+		566722591DF1F84B0060E46F /* LSQAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566722581DF1F84B0060E46F /* LSQAPI.swift */; };
+		5667225B1DF1F9C40060E46F /* LSQScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5667225A1DF1F9C40060E46F /* LSQScanViewController.swift */; };
+		5667225D1DF2250E0060E46F /* LSQPatientSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5667225C1DF2250E0060E46F /* LSQPatientSummaryViewController.swift */; };
+		5667225F1DF34FCB0060E46F /* LSQPatientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5667225E1DF34FCB0060E46F /* LSQPatientsViewController.swift */; };
+		566722611DF3553E0060E46F /* LSQProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566722601DF3553E0060E46F /* LSQProfileCollectionViewCell.swift */; };
+		566722651DF5EAEC0060E46F /* LSQProfileContactsContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566722621DF5EAEC0060E46F /* LSQProfileContactsContainerViewController.swift */; };
+		566722661DF5EAEC0060E46F /* LSQProfileMedicalContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566722631DF5EAEC0060E46F /* LSQProfileMedicalContainerViewController.swift */; };
+		566722671DF5EAEC0060E46F /* LSQProfilePersonalContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566722641DF5EAEC0060E46F /* LSQProfilePersonalContainerViewController.swift */; };
+		566722691DF7426B0060E46F /* LSQUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566722681DF7426B0060E46F /* LSQUnlockViewController.swift */; };
+		5667226B1DF748AC0060E46F /* LSQCompleteRecoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5667226A1DF748AC0060E46F /* LSQCompleteRecoveryViewController.swift */; };
+		566799F91ECCBAAF005B7BE1 /* LSQAPIOAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566799F81ECCBAAF005B7BE1 /* LSQAPIOAuth.swift */; };
+		566B10AD1C865EFA0035A196 /* LSQForgotPasswordSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566B10AC1C865EFA0035A196 /* LSQForgotPasswordSuccessViewController.swift */; };
+		566C3A761C4667DD0028E548 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566C3A751C4667DD0028E548 /* Launch Screen.storyboard */; };
+		566D2DFA1E8374DD00B54A60 /* LSQAPIAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2DF91E8374DD00B54A60 /* LSQAPIAuth.swift */; };
+		566D2DFC1E83799500B54A60 /* LSQAPIAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2DFB1E83799500B54A60 /* LSQAPIAccount.swift */; };
+		566D2DFE1E837A1B00B54A60 /* LSQAPIPatient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2DFD1E837A1B00B54A60 /* LSQAPIPatient.swift */; };
+		566D2E001E837A3900B54A60 /* LSQAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2DFF1E837A3900B54A60 /* LSQAPIProvider.swift */; };
+		566D2E021E837A6D00B54A60 /* LSQAPILifesquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2E011E837A6D00B54A60 /* LSQAPILifesquare.swift */; };
+		566D2E041E837A8A00B54A60 /* LSQAPIPatientNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2E031E837A8A00B54A60 /* LSQAPIPatientNetwork.swift */; };
+		566D2E061E837ACE00B54A60 /* LSQAPICareplan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2E051E837ACE00B54A60 /* LSQAPICareplan.swift */; };
+		566D2E081E837B5700B54A60 /* LSQAPIDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2E071E837B5700B54A60 /* LSQAPIDocument.swift */; };
+		566D2E0A1E837BD600B54A60 /* LSQAPIValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2E091E837BD600B54A60 /* LSQAPIValues.swift */; };
+		566D2E0C1E837C0C00B54A60 /* LSQAPITerms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2E0B1E837C0C00B54A60 /* LSQAPITerms.swift */; };
+		566D2E0E1E84930100B54A60 /* LSQAPIRequestAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D2E0D1E84930100B54A60 /* LSQAPIRequestAdapter.swift */; };
+		566FA7BF1D9F236D00AED406 /* Careplan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566FA7BE1D9F236D00AED406 /* Careplan.storyboard */; };
+		566FA7C11D9F275D00AED406 /* LSQCarePlanIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566FA7C01D9F275D00AED406 /* LSQCarePlanIndexViewController.swift */; };
+		566FA7C31D9F277300AED406 /* LSQCarePlanQuestionGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566FA7C21D9F277300AED406 /* LSQCarePlanQuestionGroupViewController.swift */; };
+		566FA7C51D9F278400AED406 /* LSQCarePlanRecommendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566FA7C41D9F278400AED406 /* LSQCarePlanRecommendationViewController.swift */; };
+		5674DC061DA851A500D4A69E /* LSQPatientPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674DC051DA851A500D4A69E /* LSQPatientPersonalViewController.swift */; };
+		5674DC081DA851C900D4A69E /* LSQPatientMedicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674DC071DA851C900D4A69E /* LSQPatientMedicalViewController.swift */; };
+		5674DC0A1DA851E600D4A69E /* LSQPatientContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674DC091DA851E600D4A69E /* LSQPatientContactsViewController.swift */; };
+		5675DFDE1F2FD01700C4AE94 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5675DFDD1F2FD01700C4AE94 /* Onboarding.storyboard */; };
+		5675DFE01F302CE500C4AE94 /* LSQOnboardingBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFDF1F302CE500C4AE94 /* LSQOnboardingBaseViewController.swift */; };
+		5675DFE21F30308900C4AE94 /* LSQWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFE11F30308900C4AE94 /* LSQWelcomeViewController.swift */; };
+		5675DFE41F3030D400C4AE94 /* LSQOnboardingAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFE31F3030D400C4AE94 /* LSQOnboardingAccountViewController.swift */; };
+		5675DFE61F30313600C4AE94 /* LSQOnboardingLicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFE51F30313600C4AE94 /* LSQOnboardingLicenseViewController.swift */; };
+		5675DFE81F30315F00C4AE94 /* LSQOnboardingProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFE71F30315F00C4AE94 /* LSQOnboardingProfileViewController.swift */; };
+		5675DFEA1F30318400C4AE94 /* LSQOnboardingPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFE91F30318400C4AE94 /* LSQOnboardingPhotoViewController.swift */; };
+		5675DFEC1F3031AE00C4AE94 /* LSQOnboardingScanLifesquareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFEB1F3031AE00C4AE94 /* LSQOnboardingScanLifesquareViewController.swift */; };
+		5675DFEE1F3031D100C4AE94 /* LSQOnboardingContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFED1F3031D100C4AE94 /* LSQOnboardingContactsViewController.swift */; };
+		5675DFF01F3031F500C4AE94 /* LSQOnboardingInsuranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFEF1F3031F500C4AE94 /* LSQOnboardingInsuranceViewController.swift */; };
+		5675DFF21F30321700C4AE94 /* LSQOnboardingPromoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFF11F30321700C4AE94 /* LSQOnboardingPromoViewController.swift */; };
+		5675DFF41F3038AD00C4AE94 /* LSQOnboardingMedicalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFF31F3038AD00C4AE94 /* LSQOnboardingMedicalViewController.swift */; };
+		5675DFF61F324D5400C4AE94 /* LSQOnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5675DFF51F324D5400C4AE94 /* LSQOnboardingManager.swift */; };
+		567BA75F1DB6E18B009D3A03 /* LSQProfilePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567BA75E1DB6E18B009D3A03 /* LSQProfilePhotoViewController.swift */; };
+		567D50C21E03463800D8DD9A /* LSQTabsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567D50C11E03463800D8DD9A /* LSQTabsController.swift */; };
+		56828E551C86480700ABA161 /* LSQDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56828E541C86480700ABA161 /* LSQDocumentViewController.swift */; };
+		568A15DA1E79B8CC00677F6F /* LSQEnablePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568A15D91E79B8CC00677F6F /* LSQEnablePushViewController.swift */; };
+		568EF6A81D95A9E0001F7067 /* LSQMessageContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568EF6A71D95A9E0001F7067 /* LSQMessageContactsViewController.swift */; };
+		5699C0F11C8F5B3C000D9DBE /* LSQCodeEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5699C0F01C8F5B3C000D9DBE /* LSQCodeEntryView.swift */; };
+		5699EA661C7E708A00BC3D0E /* LSQAddDocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5699EA641C7E6FDC00BC3D0E /* LSQAddDocumentViewController.swift */; };
+		569D93671C8E1C55005B9034 /* LSQProviderCredentialsSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D93661C8E1C55005B9034 /* LSQProviderCredentialsSuccessViewController.swift */; };
+		56A92CED1DC3C9EE00B74C0B /* LSQEditCollectionItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A92CEC1DC3C9EE00B74C0B /* LSQEditCollectionItemViewController.swift */; };
+		56A92CEF1DC3CBA800B74C0B /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A92CEE1DC3CBA800B74C0B /* Forms.swift */; };
+		56A92CF11DC3D08600B74C0B /* LSQCellAddCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A92CF01DC3D08600B74C0B /* LSQCellAddCollectionItem.swift */; };
+		56A92CF31DC7C43600B74C0B /* LSQFormAutocompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A92CF21DC7C43600B74C0B /* LSQFormAutocompleteViewController.swift */; };
+		56A92CF51DC7CDC800B74C0B /* LSQCellFormAutocomplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A92CF41DC7CDC800B74C0B /* LSQCellFormAutocomplete.swift */; };
+		56A92CF71DC7D3C200B74C0B /* CellFormAutocomplete.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A92CF61DC7D3C200B74C0B /* CellFormAutocomplete.xib */; };
+		56AA18651DECE65300FD2EE0 /* CollectionBlankstate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AA18641DECE65300FD2EE0 /* CollectionBlankstate.xib */; };
+		56AA18671DECE7B900FD2EE0 /* LSQCollectionBlankstate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56AA18661DECE7B900FD2EE0 /* LSQCollectionBlankstate.swift */; };
+		56BEC51D1ED8CDD300C93DDD /* LSQTouchTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEC51C1ED8CDD300C93DDD /* LSQTouchTermsViewController.swift */; };
+		56BEC51F1EDA66BF00C93DDD /* LSQUserPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BEC51E1EDA66BF00C93DDD /* LSQUserPrefs.swift */; };
+		56CF43CD1DFA8A9200E82280 /* CellFormDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56CF43CC1DFA8A9200E82280 /* CellFormDatePicker.xib */; };
+		56CF43CF1DFA8AE300E82280 /* LSQCellFormDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF43CE1DFA8AE300E82280 /* LSQCellFormDatePicker.swift */; };
+		56CF43D11DFA9AE500E82280 /* LSQFormDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CF43D01DFA9AE500E82280 /* LSQFormDatePickerViewController.swift */; };
+		56D93EA61C9E6D25008BF37D /* LSQLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D93EA51C9E6D25008BF37D /* LSQLocationManager.swift */; };
+		56D93EA81C9E7D78008BF37D /* LSQNearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D93EA71C9E7D78008BF37D /* LSQNearbyViewController.swift */; };
+		56D998D11F5FC4850004BFDB /* LSQTermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D998D01F5FC4850004BFDB /* LSQTermsViewController.swift */; };
+		56D998D31F5FC6040004BFDB /* LSQAPIStatic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D998D21F5FC6040004BFDB /* LSQAPIStatic.swift */; };
+		56E3C3011C7FAEDA00B3BF17 /* LSQForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3C3001C7FAEDA00B3BF17 /* LSQForgotPasswordViewController.swift */; };
+		56E86A521DFB9B8100EA8C91 /* LSQChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E86A511DFB9B8100EA8C91 /* LSQChangePasswordViewController.swift */; };
+		56E86A541DFBE63D00EA8C91 /* LSQGoodbyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E86A531DFBE63D00EA8C91 /* LSQGoodbyeViewController.swift */; };
+		56E9FAF81C9B6FAA003071FB /* LSQTonedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E9FAF71C9B6FAA003071FB /* LSQTonedButton.swift */; };
+		56EA3C611C7E30F300F39C4C /* LSQLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA3C601C7E30F300F39C4C /* LSQLoginViewController.swift */; };
+		56EAA2051DFF2BBC00963F31 /* Tables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EAA2041DFF2BBC00963F31 /* Tables.swift */; };
+		56EEFF6E1E7A439C0057C35F /* LSQPushController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EEFF6D1E7A439C0057C35F /* LSQPushController.swift */; };
+		56FA30E11C8A619E002E8EB7 /* LSQAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA30E01C8A619E002E8EB7 /* LSQAccountViewController.swift */; };
+		56FA30E31C8AA8F0002E8EB7 /* LSQProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FA30E21C8AA8F0002E8EB7 /* LSQProfileTableViewCell.swift */; };
+		56FB27DE1C7E24B3006A50EB /* LSQProviderCredentialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FB27DC1C7E2423006A50EB /* LSQProviderCredentialsViewController.swift */; };
+		56FB68741C9227CE00424D93 /* LSQScanHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FB68731C9227CE00424D93 /* LSQScanHistory.swift */; };
+		56FC4A5C1E027948004EE99B /* LSQBadgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC4A5B1E027948004EE99B /* LSQBadgeManager.swift */; };
+		56FC4A5E1E028C24004EE99B /* LSQInboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FC4A5D1E028C24004EE99B /* LSQInboxViewController.swift */; };
+		662971A518E6518900A39FDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662971A418E6518900A39FDA /* Foundation.framework */; };
+		662971A718E6518900A39FDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662971A618E6518900A39FDA /* CoreGraphics.framework */; };
+		662971A918E6518900A39FDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662971A818E6518900A39FDA /* UIKit.framework */; };
+		662971AF18E6518900A39FDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 662971AD18E6518900A39FDA /* InfoPlist.strings */; };
+		662971B818E6518900A39FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662971B618E6518900A39FDA /* Main.storyboard */; };
+		662971C018E6518900A39FDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662971BF18E6518900A39FDA /* Images.xcassets */; };
+		662971F818E696CB00A39FDA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 662971F718E696CB00A39FDA /* Localizable.strings */; };
+		6629721118F5257E00A39FDA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6629721018F5257E00A39FDA /* CoreLocation.framework */; };
+		663997A819A17DA9004BDB56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 663997A719A17DA9004BDB56 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5606EB391ED8AAF000D21553 /* LSQTouchAuthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQTouchAuthManager.swift; sourceTree = "<group>"; };
+		560E3DF91C88BD2C00A907B6 /* LSQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQ.swift; sourceTree = "<group>"; };
+		561271741C8FA7C100D49B31 /* LSQHistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		561271761C8FA8D200D49B31 /* LSQLifesquareDetailsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQLifesquareDetailsViewCell.swift; sourceTree = "<group>"; };
+		56143BF71DA2CD1E0030A539 /* LSQExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQExtensions.swift; path = Extensions/LSQExtensions.swift; sourceTree = "<group>"; };
+		561588101DBF408700CB02B9 /* LSQEditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQEditProfileViewController.swift; sourceTree = "<group>"; };
+		561588121DBFFD7E00CB02B9 /* CellFormInput.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFormInput.xib; sourceTree = "<group>"; };
+		561588161DBFFFAE00CB02B9 /* LSQCellFormInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellFormInput.swift; sourceTree = "<group>"; };
+		561588181DC000BA00CB02B9 /* CellFormSelect.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFormSelect.xib; sourceTree = "<group>"; };
+		5615881A1DC0010F00CB02B9 /* LSQCellFormSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellFormSelect.swift; sourceTree = "<group>"; };
+		5615881C1DC0025300CB02B9 /* LSQCellFormCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellFormCheckbox.swift; sourceTree = "<group>"; };
+		5615881E1DC002A300CB02B9 /* CellFormCheckbox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFormCheckbox.xib; sourceTree = "<group>"; };
+		561588201DC0139B00CB02B9 /* LSQFormSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQFormSelectViewController.swift; sourceTree = "<group>"; };
+		561768FA1DE3D24F005AD40D /* LSQConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQConfirmViewController.swift; sourceTree = "<group>"; };
+		561768FC1DE4F1D3005AD40D /* LSQNetworkCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQNetworkCollectionViewController.swift; sourceTree = "<group>"; };
+		561768FE1DE4F1F1005AD40D /* LSQNetworkSearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQNetworkSearchResultsViewController.swift; sourceTree = "<group>"; };
+		561EB0E41DF1516B0000B010 /* LSQUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQUser.swift; sourceTree = "<group>"; };
+		561F1EE01F63417C003D29BF /* LSQRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRouter.swift; sourceTree = "<group>"; };
+		561F1EE21F6341FE003D29BF /* LSQRoutesOnboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesOnboarding.swift; sourceTree = "<group>"; };
+		561F1EE41F634253003D29BF /* LSQRoutesAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesAuth.swift; sourceTree = "<group>"; };
+		561F1EE61F63426A003D29BF /* LSQRoutesPatient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesPatient.swift; sourceTree = "<group>"; };
+		561F1EE81F634277003D29BF /* LSQRoutesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesProvider.swift; sourceTree = "<group>"; };
+		561F1EEA1F634470003D29BF /* LSQRoutesForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesForms.swift; sourceTree = "<group>"; };
+		561F1EEC1F6345C0003D29BF /* LSQRoutesPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesPermissions.swift; sourceTree = "<group>"; };
+		561F1EEE1F634604003D29BF /* LSQRoutesPatientNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesPatientNetwork.swift; sourceTree = "<group>"; };
+		561F1EF01F634662003D29BF /* LSQRoutesCareplans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesCareplans.swift; sourceTree = "<group>"; };
+		561F1EF21F6346E9003D29BF /* LSQRoutesLifesquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesLifesquare.swift; sourceTree = "<group>"; };
+		561F1EF41F63474C003D29BF /* LSQRoutesAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesAccount.swift; sourceTree = "<group>"; };
+		561F1EF61F63492B003D29BF /* LSQRoutesTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesTabs.swift; sourceTree = "<group>"; };
+		561F1EF81F634C09003D29BF /* LSQRoutesNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQRoutesNetworking.swift; sourceTree = "<group>"; };
+		56245ECC1DD26A0300449848 /* LSQCellPrivacyRestrictedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellPrivacyRestrictedItem.swift; sourceTree = "<group>"; };
+		56245ECE1DD26A2300449848 /* LSQCellEmptyCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellEmptyCollection.swift; sourceTree = "<group>"; };
+		56245ED01DD2873100449848 /* LSQModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQModels.swift; sourceTree = "<group>"; };
+		562977431DDE21220007AA5D /* LSQCheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCheckoutViewController.swift; sourceTree = "<group>"; };
+		562977471DDE28690007AA5D /* LSQCheckoutSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCheckoutSuccessViewController.swift; sourceTree = "<group>"; };
+		562C018F1C82D0D5003A2C9C /* LSQAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAppDelegate.swift; sourceTree = "<group>"; };
+		562D6B081F65EB1300C0F0E7 /* LSQOnboardingSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQOnboardingSuccessViewController.swift; sourceTree = "<group>"; };
+		562F79521DF8EE4C0048F105 /* LSQLifesquareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQLifesquareViewController.swift; sourceTree = "<group>"; };
+		562F79541DF92FF60048F105 /* LSQProfileEmergencyContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfileEmergencyContainerViewController.swift; sourceTree = "<group>"; };
+		562F79561DF9302E0048F105 /* LSQProfileEmergencyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfileEmergencyViewController.swift; sourceTree = "<group>"; };
+		562F79581DF94BBB0048F105 /* LSQCollectionBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCollectionBaseViewController.swift; sourceTree = "<group>"; };
+		562F795A1DF970DD0048F105 /* LSQPickerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPickerDelegate.swift; sourceTree = "<group>"; };
+		5635A2871DB56FC500B7FD59 /* LSQVitalsPhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQVitalsPhotoTableViewCell.swift; sourceTree = "<group>"; };
+		5635A2891DB5B2D000B7FD59 /* CellProfileSummary.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellProfileSummary.xib; sourceTree = "<group>"; };
+		5635A28B1DB5B7FB00B7FD59 /* CellProfilePhoto.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellProfilePhoto.xib; sourceTree = "<group>"; };
+		56446FBA1C9CB9AD0077F7B3 /* LSQDurationTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQDurationTimer.swift; sourceTree = "<group>"; };
+		564A47F31E5BBA92008FF5CE /* LSQScanImportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQScanImportViewController.swift; sourceTree = "<group>"; };
+		564A7F961F60C6A0009215C6 /* LSQPatientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQPatientManager.swift; sourceTree = "<group>"; };
+		564C769D1DAEA6960058E1F0 /* LSQEmergencyContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LSQEmergencyContactViewController.swift; path = fragments/LSQEmergencyContactViewController.swift; sourceTree = "<group>"; };
+		564C769F1DAEB3A70058E1F0 /* LSQInsuranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQInsuranceViewController.swift; path = fragments/LSQInsuranceViewController.swift; sourceTree = "<group>"; };
+		564C76A11DAEB5F30058E1F0 /* LSQHospitalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQHospitalViewController.swift; path = fragments/LSQHospitalViewController.swift; sourceTree = "<group>"; };
+		564FDE951DA84C6100045852 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		56506F241E31781D00F98ECC /* CellFormInputMultiline.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFormInputMultiline.xib; sourceTree = "<group>"; };
+		56506F261E317B5F00F98ECC /* LSQCellFormInputMultiline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellFormInputMultiline.swift; sourceTree = "<group>"; };
+		5651FC7C1F69A09300CB9BB3 /* Lifesquare.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lifesquare.storyboard; sourceTree = "<group>"; };
+		565210B41F5B3F1A006CBD09 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		565210B61F5B3F4F006CBD09 /* FloatLabelTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextView.swift; sourceTree = "<group>"; };
+		56550C651E2EC33D007F38D0 /* CellFormHeightPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFormHeightPicker.xib; sourceTree = "<group>"; };
+		56550C671E2EC3C0007F38D0 /* LSQCellFormHeightPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellFormHeightPicker.swift; sourceTree = "<group>"; };
+		56550C691E2EC51F007F38D0 /* LSQFormHeightPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQFormHeightPickerViewController.swift; sourceTree = "<group>"; };
+		5657FF011F6A2C20001F0941 /* LSQAppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQAppearanceManager.swift; sourceTree = "<group>"; };
+		565960AD1C90079600AF1003 /* LSQHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQHistoryViewController.swift; sourceTree = "<group>"; };
+		565A259C1F6B40FD009A6DE2 /* LSQOnboardingConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQOnboardingConfirmViewController.swift; sourceTree = "<group>"; };
+		5665E8D31DC93CFD00E9FF4C /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5665E8D51DC9469B00E9FF4C /* LSQEditAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQEditAccountViewController.swift; sourceTree = "<group>"; };
+		566722541DF1F6F30060E46F /* LSQCodeEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCodeEntryViewController.swift; sourceTree = "<group>"; };
+		566722581DF1F84B0060E46F /* LSQAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPI.swift; sourceTree = "<group>"; };
+		5667225A1DF1F9C40060E46F /* LSQScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQScanViewController.swift; sourceTree = "<group>"; };
+		5667225C1DF2250E0060E46F /* LSQPatientSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPatientSummaryViewController.swift; sourceTree = "<group>"; };
+		5667225E1DF34FCB0060E46F /* LSQPatientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPatientsViewController.swift; sourceTree = "<group>"; };
+		566722601DF3553E0060E46F /* LSQProfileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		566722621DF5EAEC0060E46F /* LSQProfileContactsContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfileContactsContainerViewController.swift; sourceTree = "<group>"; };
+		566722631DF5EAEC0060E46F /* LSQProfileMedicalContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfileMedicalContainerViewController.swift; sourceTree = "<group>"; };
+		566722641DF5EAEC0060E46F /* LSQProfilePersonalContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfilePersonalContainerViewController.swift; sourceTree = "<group>"; };
+		566722681DF7426B0060E46F /* LSQUnlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQUnlockViewController.swift; sourceTree = "<group>"; };
+		5667226A1DF748AC0060E46F /* LSQCompleteRecoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCompleteRecoveryViewController.swift; sourceTree = "<group>"; };
+		566799F81ECCBAAF005B7BE1 /* LSQAPIOAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIOAuth.swift; sourceTree = "<group>"; };
+		566B10AC1C865EFA0035A196 /* LSQForgotPasswordSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQForgotPasswordSuccessViewController.swift; sourceTree = "<group>"; };
+		566C3A751C4667DD0028E548 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		566D2DF91E8374DD00B54A60 /* LSQAPIAuth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIAuth.swift; sourceTree = "<group>"; };
+		566D2DFB1E83799500B54A60 /* LSQAPIAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIAccount.swift; sourceTree = "<group>"; };
+		566D2DFD1E837A1B00B54A60 /* LSQAPIPatient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIPatient.swift; sourceTree = "<group>"; };
+		566D2DFF1E837A3900B54A60 /* LSQAPIProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIProvider.swift; sourceTree = "<group>"; };
+		566D2E011E837A6D00B54A60 /* LSQAPILifesquare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPILifesquare.swift; sourceTree = "<group>"; };
+		566D2E031E837A8A00B54A60 /* LSQAPIPatientNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIPatientNetwork.swift; sourceTree = "<group>"; };
+		566D2E051E837ACE00B54A60 /* LSQAPICareplan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPICareplan.swift; sourceTree = "<group>"; };
+		566D2E071E837B5700B54A60 /* LSQAPIDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIDocument.swift; sourceTree = "<group>"; };
+		566D2E091E837BD600B54A60 /* LSQAPIValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIValues.swift; sourceTree = "<group>"; };
+		566D2E0B1E837C0C00B54A60 /* LSQAPITerms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPITerms.swift; sourceTree = "<group>"; };
+		566D2E0D1E84930100B54A60 /* LSQAPIRequestAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAPIRequestAdapter.swift; sourceTree = "<group>"; };
+		566FA7BE1D9F236D00AED406 /* Careplan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Careplan.storyboard; sourceTree = "<group>"; };
+		566FA7C01D9F275D00AED406 /* LSQCarePlanIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCarePlanIndexViewController.swift; sourceTree = "<group>"; };
+		566FA7C21D9F277300AED406 /* LSQCarePlanQuestionGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCarePlanQuestionGroupViewController.swift; sourceTree = "<group>"; };
+		566FA7C41D9F278400AED406 /* LSQCarePlanRecommendationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCarePlanRecommendationViewController.swift; sourceTree = "<group>"; };
+		5674DC051DA851A500D4A69E /* LSQPatientPersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPatientPersonalViewController.swift; sourceTree = "<group>"; };
+		5674DC071DA851C900D4A69E /* LSQPatientMedicalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPatientMedicalViewController.swift; sourceTree = "<group>"; };
+		5674DC091DA851E600D4A69E /* LSQPatientContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPatientContactsViewController.swift; sourceTree = "<group>"; };
+		5675DFDD1F2FD01700C4AE94 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		5675DFDF1F302CE500C4AE94 /* LSQOnboardingBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQOnboardingBaseViewController.swift; sourceTree = "<group>"; };
+		5675DFE11F30308900C4AE94 /* LSQWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQWelcomeViewController.swift; path = onboarding2.0/LSQWelcomeViewController.swift; sourceTree = "<group>"; };
+		5675DFE31F3030D400C4AE94 /* LSQOnboardingAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingAccountViewController.swift; path = onboarding2.0/LSQOnboardingAccountViewController.swift; sourceTree = "<group>"; };
+		5675DFE51F30313600C4AE94 /* LSQOnboardingLicenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingLicenseViewController.swift; path = onboarding2.0/LSQOnboardingLicenseViewController.swift; sourceTree = "<group>"; };
+		5675DFE71F30315F00C4AE94 /* LSQOnboardingProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingProfileViewController.swift; path = onboarding2.0/LSQOnboardingProfileViewController.swift; sourceTree = "<group>"; };
+		5675DFE91F30318400C4AE94 /* LSQOnboardingPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingPhotoViewController.swift; path = onboarding2.0/LSQOnboardingPhotoViewController.swift; sourceTree = "<group>"; };
+		5675DFEB1F3031AE00C4AE94 /* LSQOnboardingScanLifesquareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingScanLifesquareViewController.swift; path = onboarding2.0/LSQOnboardingScanLifesquareViewController.swift; sourceTree = "<group>"; };
+		5675DFED1F3031D100C4AE94 /* LSQOnboardingContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingContactsViewController.swift; path = onboarding2.0/LSQOnboardingContactsViewController.swift; sourceTree = "<group>"; };
+		5675DFEF1F3031F500C4AE94 /* LSQOnboardingInsuranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingInsuranceViewController.swift; path = onboarding2.0/LSQOnboardingInsuranceViewController.swift; sourceTree = "<group>"; };
+		5675DFF11F30321700C4AE94 /* LSQOnboardingPromoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingPromoViewController.swift; path = onboarding2.0/LSQOnboardingPromoViewController.swift; sourceTree = "<group>"; };
+		5675DFF31F3038AD00C4AE94 /* LSQOnboardingMedicalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQOnboardingMedicalViewController.swift; path = onboarding2.0/LSQOnboardingMedicalViewController.swift; sourceTree = "<group>"; };
+		5675DFF51F324D5400C4AE94 /* LSQOnboardingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQOnboardingManager.swift; sourceTree = "<group>"; };
+		567BA75E1DB6E18B009D3A03 /* LSQProfilePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfilePhotoViewController.swift; sourceTree = "<group>"; };
+		567D50C11E03463800D8DD9A /* LSQTabsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQTabsController.swift; sourceTree = "<group>"; };
+		5682437E1C82F12F00485DC8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		56828E541C86480700ABA161 /* LSQDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQDocumentViewController.swift; sourceTree = "<group>"; };
+		568A15D91E79B8CC00677F6F /* LSQEnablePushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQEnablePushViewController.swift; sourceTree = "<group>"; };
+		568EF6A71D95A9E0001F7067 /* LSQMessageContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQMessageContactsViewController.swift; sourceTree = "<group>"; };
+		5699C0F01C8F5B3C000D9DBE /* LSQCodeEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCodeEntryView.swift; sourceTree = "<group>"; };
+		5699EA641C7E6FDC00BC3D0E /* LSQAddDocumentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAddDocumentViewController.swift; sourceTree = "<group>"; };
+		569D93661C8E1C55005B9034 /* LSQProviderCredentialsSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProviderCredentialsSuccessViewController.swift; sourceTree = "<group>"; };
+		56A92CEC1DC3C9EE00B74C0B /* LSQEditCollectionItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQEditCollectionItemViewController.swift; sourceTree = "<group>"; };
+		56A92CEE1DC3CBA800B74C0B /* Forms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		56A92CF01DC3D08600B74C0B /* LSQCellAddCollectionItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellAddCollectionItem.swift; sourceTree = "<group>"; };
+		56A92CF21DC7C43600B74C0B /* LSQFormAutocompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQFormAutocompleteViewController.swift; sourceTree = "<group>"; };
+		56A92CF41DC7CDC800B74C0B /* LSQCellFormAutocomplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellFormAutocomplete.swift; sourceTree = "<group>"; };
+		56A92CF61DC7D3C200B74C0B /* CellFormAutocomplete.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFormAutocomplete.xib; sourceTree = "<group>"; };
+		56AA18641DECE65300FD2EE0 /* CollectionBlankstate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionBlankstate.xib; sourceTree = "<group>"; };
+		56AA18661DECE7B900FD2EE0 /* LSQCollectionBlankstate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCollectionBlankstate.swift; sourceTree = "<group>"; };
+		56BEC51C1ED8CDD300C93DDD /* LSQTouchTermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQTouchTermsViewController.swift; sourceTree = "<group>"; };
+		56BEC51E1EDA66BF00C93DDD /* LSQUserPrefs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQUserPrefs.swift; sourceTree = "<group>"; };
+		56CF43CC1DFA8A9200E82280 /* CellFormDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellFormDatePicker.xib; sourceTree = "<group>"; };
+		56CF43CE1DFA8AE300E82280 /* LSQCellFormDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQCellFormDatePicker.swift; sourceTree = "<group>"; };
+		56CF43D01DFA9AE500E82280 /* LSQFormDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQFormDatePickerViewController.swift; sourceTree = "<group>"; };
+		56D93EA51C9E6D25008BF37D /* LSQLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQLocationManager.swift; sourceTree = "<group>"; };
+		56D93EA71C9E7D78008BF37D /* LSQNearbyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQNearbyViewController.swift; sourceTree = "<group>"; };
+		56D998D01F5FC4850004BFDB /* LSQTermsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQTermsViewController.swift; sourceTree = "<group>"; };
+		56D998D21F5FC6040004BFDB /* LSQAPIStatic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSQAPIStatic.swift; sourceTree = "<group>"; };
+		56E3C3001C7FAEDA00B3BF17 /* LSQForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		56E86A511DFB9B8100EA8C91 /* LSQChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQChangePasswordViewController.swift; sourceTree = "<group>"; };
+		56E86A531DFBE63D00EA8C91 /* LSQGoodbyeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQGoodbyeViewController.swift; sourceTree = "<group>"; };
+		56E9FAF71C9B6FAA003071FB /* LSQTonedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQTonedButton.swift; sourceTree = "<group>"; };
+		56EA3C601C7E30F300F39C4C /* LSQLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQLoginViewController.swift; sourceTree = "<group>"; };
+		56EAA2041DFF2BBC00963F31 /* Tables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tables.swift; sourceTree = "<group>"; };
+		56EDD8831E7486F2008BFE14 /* HealthNotifier.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HealthNotifier.entitlements; sourceTree = "<group>"; };
+		56EEFF6D1E7A439C0057C35F /* LSQPushController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPushController.swift; sourceTree = "<group>"; };
+		56FA30E01C8A619E002E8EB7 /* LSQAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQAccountViewController.swift; sourceTree = "<group>"; };
+		56FA30E21C8AA8F0002E8EB7 /* LSQProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProfileTableViewCell.swift; sourceTree = "<group>"; };
+		56FB27DC1C7E2423006A50EB /* LSQProviderCredentialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQProviderCredentialsViewController.swift; sourceTree = "<group>"; };
+		56FB68731C9227CE00424D93 /* LSQScanHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQScanHistory.swift; sourceTree = "<group>"; };
+		56FC4A5B1E027948004EE99B /* LSQBadgeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LSQBadgeManager.swift; path = Lifesquare/Helpers/LSQBadgeManager.swift; sourceTree = SOURCE_ROOT; };
+		56FC4A5D1E028C24004EE99B /* LSQInboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQInboxViewController.swift; sourceTree = "<group>"; };
+		662971A118E6518900A39FDA /* app-ios */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "app-ios"; path = "../../../../../../../../CM/health-notifier/app-ios"; sourceTree = BUILT_PRODUCTS_DIR; };
+		662971A418E6518900A39FDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		662971A618E6518900A39FDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		662971A818E6518900A39FDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		662971AC18E6518900A39FDA /* HealthNotifier-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HealthNotifier-Info.plist"; sourceTree = "<group>"; };
+		662971AE18E6518900A39FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		662971B718E6518900A39FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		662971BF18E6518900A39FDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		662971ED18E6562700A39FDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		662971F718E696CB00A39FDA /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		6629721018F5257E00A39FDA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		663997A719A17DA9004BDB56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6629719E18E6518900A39FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663997A819A17DA9004BDB56 /* AVFoundation.framework in Frameworks */,
+				6629721118F5257E00A39FDA /* CoreLocation.framework in Frameworks */,
+				662971A718E6518900A39FDA /* CoreGraphics.framework in Frameworks */,
+				662971A918E6518900A39FDA /* UIKit.framework in Frameworks */,
+				662971A518E6518900A39FDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56143BF61DA2CCF20030A539 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56143BF71DA2CD1E0030A539 /* LSQExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6619000318FB3267001CBD13 /* Mediators */ = {
+			isa = PBXGroup;
+			children = (
+				561F1EE01F63417C003D29BF /* LSQRouter.swift */,
+				561F1EF41F63474C003D29BF /* LSQRoutesAccount.swift */,
+				561F1EE41F634253003D29BF /* LSQRoutesAuth.swift */,
+				561F1EF01F634662003D29BF /* LSQRoutesCareplans.swift */,
+				561F1EEA1F634470003D29BF /* LSQRoutesForms.swift */,
+				561F1EF21F6346E9003D29BF /* LSQRoutesLifesquare.swift */,
+				561F1EE21F6341FE003D29BF /* LSQRoutesOnboarding.swift */,
+				561F1EE61F63426A003D29BF /* LSQRoutesPatient.swift */,
+				561F1EEE1F634604003D29BF /* LSQRoutesPatientNetwork.swift */,
+				561F1EEC1F6345C0003D29BF /* LSQRoutesPermissions.swift */,
+				561F1EE81F634277003D29BF /* LSQRoutesProvider.swift */,
+				561F1EF61F63492B003D29BF /* LSQRoutesTabs.swift */,
+				561F1EF81F634C09003D29BF /* LSQRoutesNetworking.swift */,
+			);
+			path = Mediators;
+			sourceTree = "<group>";
+		};
+		6629719818E6518900A39FDA = {
+			isa = PBXGroup;
+			children = (
+				662971AA18E6518900A39FDA /* HealthNotifier */,
+				662971A318E6518900A39FDA /* Frameworks */,
+				662971A218E6518900A39FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662971A218E6518900A39FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662971A118E6518900A39FDA /* app-ios */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662971A318E6518900A39FDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5682437E1C82F12F00485DC8 /* SystemConfiguration.framework */,
+				663997A719A17DA9004BDB56 /* AVFoundation.framework */,
+				6629721018F5257E00A39FDA /* CoreLocation.framework */,
+				662971A418E6518900A39FDA /* Foundation.framework */,
+				662971A618E6518900A39FDA /* CoreGraphics.framework */,
+				662971A818E6518900A39FDA /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		662971AA18E6518900A39FDA /* HealthNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				56EDD8831E7486F2008BFE14 /* HealthNotifier.entitlements */,
+				56143BF61DA2CCF20030A539 /* Extensions */,
+				662971DC18E6531200A39FDA /* Controllers */,
+				662971DF18E6532400A39FDA /* Helpers */,
+				6619000318FB3267001CBD13 /* Mediators */,
+				662971DD18E6531B00A39FDA /* Models */,
+				6629720C18F3CA0900A39FDA /* Network */,
+				662971DE18E6531F00A39FDA /* Views */,
+				662971BF18E6518900A39FDA /* Images.xcassets */,
+				662971AB18E6518900A39FDA /* Supporting Files */,
+				562C018F1C82D0D5003A2C9C /* LSQAppDelegate.swift */,
+			);
+			path = HealthNotifier;
+			sourceTree = "<group>";
+		};
+		662971AB18E6518900A39FDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				662971AC18E6518900A39FDA /* HealthNotifier-Info.plist */,
+				662971AD18E6518900A39FDA /* InfoPlist.strings */,
+				662971F718E696CB00A39FDA /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		662971DC18E6531200A39FDA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				565A259C1F6B40FD009A6DE2 /* LSQOnboardingConfirmViewController.swift */,
+				56D998D01F5FC4850004BFDB /* LSQTermsViewController.swift */,
+				56BEC51C1ED8CDD300C93DDD /* LSQTouchTermsViewController.swift */,
+				56FA30E01C8A619E002E8EB7 /* LSQAccountViewController.swift */,
+				5699EA641C7E6FDC00BC3D0E /* LSQAddDocumentViewController.swift */,
+				566FA7C01D9F275D00AED406 /* LSQCarePlanIndexViewController.swift */,
+				566FA7C21D9F277300AED406 /* LSQCarePlanQuestionGroupViewController.swift */,
+				566FA7C41D9F278400AED406 /* LSQCarePlanRecommendationViewController.swift */,
+				56E86A511DFB9B8100EA8C91 /* LSQChangePasswordViewController.swift */,
+				562977471DDE28690007AA5D /* LSQCheckoutSuccessViewController.swift */,
+				562977431DDE21220007AA5D /* LSQCheckoutViewController.swift */,
+				566722541DF1F6F30060E46F /* LSQCodeEntryViewController.swift */,
+				562F79581DF94BBB0048F105 /* LSQCollectionBaseViewController.swift */,
+				5667226A1DF748AC0060E46F /* LSQCompleteRecoveryViewController.swift */,
+				561768FA1DE3D24F005AD40D /* LSQConfirmViewController.swift */,
+				56828E541C86480700ABA161 /* LSQDocumentViewController.swift */,
+				5665E8D51DC9469B00E9FF4C /* LSQEditAccountViewController.swift */,
+				56A92CEC1DC3C9EE00B74C0B /* LSQEditCollectionItemViewController.swift */,
+				561588101DBF408700CB02B9 /* LSQEditProfileViewController.swift */,
+				564C769D1DAEA6960058E1F0 /* LSQEmergencyContactViewController.swift */,
+				568A15D91E79B8CC00677F6F /* LSQEnablePushViewController.swift */,
+				566B10AC1C865EFA0035A196 /* LSQForgotPasswordSuccessViewController.swift */,
+				56E3C3001C7FAEDA00B3BF17 /* LSQForgotPasswordViewController.swift */,
+				56A92CF21DC7C43600B74C0B /* LSQFormAutocompleteViewController.swift */,
+				56CF43D01DFA9AE500E82280 /* LSQFormDatePickerViewController.swift */,
+				56550C691E2EC51F007F38D0 /* LSQFormHeightPickerViewController.swift */,
+				561588201DC0139B00CB02B9 /* LSQFormSelectViewController.swift */,
+				56E86A531DFBE63D00EA8C91 /* LSQGoodbyeViewController.swift */,
+				565960AD1C90079600AF1003 /* LSQHistoryViewController.swift */,
+				564C76A11DAEB5F30058E1F0 /* LSQHospitalViewController.swift */,
+				56FC4A5D1E028C24004EE99B /* LSQInboxViewController.swift */,
+				564C769F1DAEB3A70058E1F0 /* LSQInsuranceViewController.swift */,
+				562F79521DF8EE4C0048F105 /* LSQLifesquareViewController.swift */,
+				56EA3C601C7E30F300F39C4C /* LSQLoginViewController.swift */,
+				568EF6A71D95A9E0001F7067 /* LSQMessageContactsViewController.swift */,
+				56D93EA71C9E7D78008BF37D /* LSQNearbyViewController.swift */,
+				561768FC1DE4F1D3005AD40D /* LSQNetworkCollectionViewController.swift */,
+				561768FE1DE4F1F1005AD40D /* LSQNetworkSearchResultsViewController.swift */,
+				5675DFE31F3030D400C4AE94 /* LSQOnboardingAccountViewController.swift */,
+				5675DFDF1F302CE500C4AE94 /* LSQOnboardingBaseViewController.swift */,
+				5675DFED1F3031D100C4AE94 /* LSQOnboardingContactsViewController.swift */,
+				5675DFEF1F3031F500C4AE94 /* LSQOnboardingInsuranceViewController.swift */,
+				5675DFE51F30313600C4AE94 /* LSQOnboardingLicenseViewController.swift */,
+				5675DFF31F3038AD00C4AE94 /* LSQOnboardingMedicalViewController.swift */,
+				5675DFE91F30318400C4AE94 /* LSQOnboardingPhotoViewController.swift */,
+				5675DFE71F30315F00C4AE94 /* LSQOnboardingProfileViewController.swift */,
+				5675DFF11F30321700C4AE94 /* LSQOnboardingPromoViewController.swift */,
+				562D6B081F65EB1300C0F0E7 /* LSQOnboardingSuccessViewController.swift */,
+				5675DFEB1F3031AE00C4AE94 /* LSQOnboardingScanLifesquareViewController.swift */,
+				5674DC091DA851E600D4A69E /* LSQPatientContactsViewController.swift */,
+				5674DC071DA851C900D4A69E /* LSQPatientMedicalViewController.swift */,
+				5674DC051DA851A500D4A69E /* LSQPatientPersonalViewController.swift */,
+				5667225C1DF2250E0060E46F /* LSQPatientSummaryViewController.swift */,
+				5667225E1DF34FCB0060E46F /* LSQPatientsViewController.swift */,
+				562F795A1DF970DD0048F105 /* LSQPickerDelegate.swift */,
+				566722621DF5EAEC0060E46F /* LSQProfileContactsContainerViewController.swift */,
+				562F79541DF92FF60048F105 /* LSQProfileEmergencyContainerViewController.swift */,
+				562F79561DF9302E0048F105 /* LSQProfileEmergencyViewController.swift */,
+				566722631DF5EAEC0060E46F /* LSQProfileMedicalContainerViewController.swift */,
+				566722641DF5EAEC0060E46F /* LSQProfilePersonalContainerViewController.swift */,
+				567BA75E1DB6E18B009D3A03 /* LSQProfilePhotoViewController.swift */,
+				569D93661C8E1C55005B9034 /* LSQProviderCredentialsSuccessViewController.swift */,
+				56FB27DC1C7E2423006A50EB /* LSQProviderCredentialsViewController.swift */,
+				56EEFF6D1E7A439C0057C35F /* LSQPushController.swift */,
+				564A47F31E5BBA92008FF5CE /* LSQScanImportViewController.swift */,
+				5667225A1DF1F9C40060E46F /* LSQScanViewController.swift */,
+				567D50C11E03463800D8DD9A /* LSQTabsController.swift */,
+				566722681DF7426B0060E46F /* LSQUnlockViewController.swift */,
+				5675DFE11F30308900C4AE94 /* LSQWelcomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		662971DD18E6531B00A39FDA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				56FC4A5B1E027948004EE99B /* LSQBadgeManager.swift */,
+				561EB0E41DF1516B0000B010 /* LSQUser.swift */,
+				560E3DF91C88BD2C00A907B6 /* LSQ.swift */,
+				56FB68731C9227CE00424D93 /* LSQScanHistory.swift */,
+				56245ED01DD2873100449848 /* LSQModels.swift */,
+				5606EB391ED8AAF000D21553 /* LSQTouchAuthManager.swift */,
+				56BEC51E1EDA66BF00C93DDD /* LSQUserPrefs.swift */,
+				5675DFF51F324D5400C4AE94 /* LSQOnboardingManager.swift */,
+				564A7F961F60C6A0009215C6 /* LSQPatientManager.swift */,
+				5657FF011F6A2C20001F0941 /* LSQAppearanceManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		662971DE18E6531F00A39FDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5651FC7C1F69A09300CB9BB3 /* Lifesquare.storyboard */,
+				566FA7BE1D9F236D00AED406 /* Careplan.storyboard */,
+				566C3A751C4667DD0028E548 /* Launch Screen.storyboard */,
+				5675DFDD1F2FD01700C4AE94 /* Onboarding.storyboard */,
+				564FDE951DA84C6100045852 /* Profile.storyboard */,
+				565210B41F5B3F1A006CBD09 /* FloatLabelTextField.swift */,
+				565210B61F5B3F4F006CBD09 /* FloatLabelTextView.swift */,
+				56A92CF01DC3D08600B74C0B /* LSQCellAddCollectionItem.swift */,
+				56245ECE1DD26A2300449848 /* LSQCellEmptyCollection.swift */,
+				56A92CF41DC7CDC800B74C0B /* LSQCellFormAutocomplete.swift */,
+				5615881C1DC0025300CB02B9 /* LSQCellFormCheckbox.swift */,
+				56CF43CE1DFA8AE300E82280 /* LSQCellFormDatePicker.swift */,
+				56550C671E2EC3C0007F38D0 /* LSQCellFormHeightPicker.swift */,
+				561588161DBFFFAE00CB02B9 /* LSQCellFormInput.swift */,
+				56506F261E317B5F00F98ECC /* LSQCellFormInputMultiline.swift */,
+				5615881A1DC0010F00CB02B9 /* LSQCellFormSelect.swift */,
+				56245ECC1DD26A0300449848 /* LSQCellPrivacyRestrictedItem.swift */,
+				5699C0F01C8F5B3C000D9DBE /* LSQCodeEntryView.swift */,
+				56AA18661DECE7B900FD2EE0 /* LSQCollectionBlankstate.swift */,
+				561271741C8FA7C100D49B31 /* LSQHistoryTableViewCell.swift */,
+				561271761C8FA8D200D49B31 /* LSQLifesquareDetailsViewCell.swift */,
+				566722601DF3553E0060E46F /* LSQProfileCollectionViewCell.swift */,
+				56FA30E21C8AA8F0002E8EB7 /* LSQProfileTableViewCell.swift */,
+				56E9FAF71C9B6FAA003071FB /* LSQTonedButton.swift */,
+				5635A2871DB56FC500B7FD59 /* LSQVitalsPhotoTableViewCell.swift */,
+				56A92CF61DC7D3C200B74C0B /* CellFormAutocomplete.xib */,
+				5615881E1DC002A300CB02B9 /* CellFormCheckbox.xib */,
+				56CF43CC1DFA8A9200E82280 /* CellFormDatePicker.xib */,
+				56550C651E2EC33D007F38D0 /* CellFormHeightPicker.xib */,
+				561588121DBFFD7E00CB02B9 /* CellFormInput.xib */,
+				56506F241E31781D00F98ECC /* CellFormInputMultiline.xib */,
+				561588181DC000BA00CB02B9 /* CellFormSelect.xib */,
+				5635A28B1DB5B7FB00B7FD59 /* CellProfilePhoto.xib */,
+				5635A2891DB5B2D000B7FD59 /* CellProfileSummary.xib */,
+				56AA18641DECE65300FD2EE0 /* CollectionBlankstate.xib */,
+				662971B618E6518900A39FDA /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		662971DF18E6532400A39FDA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				56D93EA51C9E6D25008BF37D /* LSQLocationManager.swift */,
+				56446FBA1C9CB9AD0077F7B3 /* LSQDurationTimer.swift */,
+				56A92CEE1DC3CBA800B74C0B /* Forms.swift */,
+				56EAA2041DFF2BBC00963F31 /* Tables.swift */,
+				5665E8D31DC93CFD00E9FF4C /* Utils.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6629720C18F3CA0900A39FDA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				566722581DF1F84B0060E46F /* LSQAPI.swift */,
+				566D2DFB1E83799500B54A60 /* LSQAPIAccount.swift */,
+				566D2DF91E8374DD00B54A60 /* LSQAPIAuth.swift */,
+				566D2E051E837ACE00B54A60 /* LSQAPICareplan.swift */,
+				566D2E071E837B5700B54A60 /* LSQAPIDocument.swift */,
+				566D2E011E837A6D00B54A60 /* LSQAPILifesquare.swift */,
+				566799F81ECCBAAF005B7BE1 /* LSQAPIOAuth.swift */,
+				566D2DFD1E837A1B00B54A60 /* LSQAPIPatient.swift */,
+				566D2E031E837A8A00B54A60 /* LSQAPIPatientNetwork.swift */,
+				566D2DFF1E837A3900B54A60 /* LSQAPIProvider.swift */,
+				566D2E0D1E84930100B54A60 /* LSQAPIRequestAdapter.swift */,
+				566D2E0B1E837C0C00B54A60 /* LSQAPITerms.swift */,
+				566D2E091E837BD600B54A60 /* LSQAPIValues.swift */,
+				56D998D21F5FC6040004BFDB /* LSQAPIStatic.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662971A018E6518900A39FDA /* HealthNotifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662971D618E6518900A39FDA /* Build configuration list for PBXNativeTarget "HealthNotifier" */;
+			buildPhases = (
+				93BDEE3FC6CE4CC49D9ECB71 /* [CP] Check Pods Manifest.lock */,
+				6629719D18E6518900A39FDA /* Sources */,
+				6629719E18E6518900A39FDA /* Frameworks */,
+				6629719F18E6518900A39FDA /* Resources */,
+				3F13D996063D4F7F88CCA47D /* [CP] Copy Pods Resources */,
+				8B33E4612EE958EA5B286EF6 /* [CP] Embed Pods Frameworks */,
+				56551FAA1C88029F00A14462 /* ShellScript */,
+				561268E71E036577006B4302 /* Increment Build */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthNotifier;
+			productName = HealthNotifier;
+			productReference = 662971A118E6518900A39FDA /* app-ios */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6629719918E6518900A39FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LSQ;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = HealthNotifier;
+				TargetAttributes = {
+					662971A018E6518900A39FDA = {
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6629719C18E6518900A39FDA /* Build configuration list for PBXProject "HealthNotifier" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6629719818E6518900A39FDA;
+			productRefGroup = 662971A218E6518900A39FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662971A018E6518900A39FDA /* HealthNotifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6629719F18E6518900A39FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5651FC7D1F69A09300CB9BB3 /* Lifesquare.storyboard in Resources */,
+				566FA7BF1D9F236D00AED406 /* Careplan.storyboard in Resources */,
+				566C3A761C4667DD0028E548 /* Launch Screen.storyboard in Resources */,
+				561588131DBFFD7E00CB02B9 /* CellFormInput.xib in Resources */,
+				662971C018E6518900A39FDA /* Images.xcassets in Resources */,
+				5635A28A1DB5B2D000B7FD59 /* CellProfileSummary.xib in Resources */,
+				56A92CF71DC7D3C200B74C0B /* CellFormAutocomplete.xib in Resources */,
+				5675DFDE1F2FD01700C4AE94 /* Onboarding.storyboard in Resources */,
+				56506F251E31781D00F98ECC /* CellFormInputMultiline.xib in Resources */,
+				56CF43CD1DFA8A9200E82280 /* CellFormDatePicker.xib in Resources */,
+				662971F818E696CB00A39FDA /* Localizable.strings in Resources */,
+				561588191DC000BA00CB02B9 /* CellFormSelect.xib in Resources */,
+				564FDE961DA84C6100045852 /* Profile.storyboard in Resources */,
+				5615881F1DC002A300CB02B9 /* CellFormCheckbox.xib in Resources */,
+				662971AF18E6518900A39FDA /* InfoPlist.strings in Resources */,
+				56550C661E2EC33D007F38D0 /* CellFormHeightPicker.xib in Resources */,
+				662971B818E6518900A39FDA /* Main.storyboard in Resources */,
+				56AA18651DECE65300FD2EE0 /* CollectionBlankstate.xib in Resources */,
+				5635A28C1DB5B7FB00B7FD59 /* CellProfilePhoto.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F13D996063D4F7F88CCA47D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthNotifier/Pods-HealthNotifier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561268E71E036577006B4302 /* Increment Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		56551FAA1C88029F00A14462 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 2a01be5c2afa6549e284cb213717da3eeb98a845 8e621de705a6556f99bf1750bf0c86b08fe93824bf80c7c04e958db91b83b79c";
+		};
+		8B33E4612EE958EA5B286EF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HealthNotifier/Pods-HealthNotifier-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireNetworkActivityIndicator/AlamofireNetworkActivityIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/EZLoadingActivity/EZLoadingActivity.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/JWTDecode/JWTDecode.framework",
+				"${BUILT_PRODUCTS_DIR}/KeenClient/KeenClient.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/RNCryptor/RNCryptor.framework",
+				"${BUILT_PRODUCTS_DIR}/Stripe/Stripe.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireNetworkActivityIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZLoadingActivity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JWTDecode.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeenClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNCryptor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stripe.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HealthNotifier/Pods-HealthNotifier-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93BDEE3FC6CE4CC49D9ECB71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HealthNotifier-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6629719D18E6518900A39FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AA18671DECE7B900FD2EE0 /* LSQCollectionBlankstate.swift in Sources */,
+				5674DC081DA851C900D4A69E /* LSQPatientMedicalViewController.swift in Sources */,
+				565210B71F5B3F4F006CBD09 /* FloatLabelTextView.swift in Sources */,
+				566D2E0A1E837BD600B54A60 /* LSQAPIValues.swift in Sources */,
+				56550C681E2EC3C0007F38D0 /* LSQCellFormHeightPicker.swift in Sources */,
+				56446FBB1C9CB9AD0077F7B3 /* LSQDurationTimer.swift in Sources */,
+				562977441DDE21220007AA5D /* LSQCheckoutViewController.swift in Sources */,
+				56BEC51D1ED8CDD300C93DDD /* LSQTouchTermsViewController.swift in Sources */,
+				5675DFF41F3038AD00C4AE94 /* LSQOnboardingMedicalViewController.swift in Sources */,
+				561F1EE71F63426A003D29BF /* LSQRoutesPatient.swift in Sources */,
+				564A7F971F60C6A0009215C6 /* LSQPatientManager.swift in Sources */,
+				561F1EF31F6346E9003D29BF /* LSQRoutesLifesquare.swift in Sources */,
+				566799F91ECCBAAF005B7BE1 /* LSQAPIOAuth.swift in Sources */,
+				561F1EEB1F634470003D29BF /* LSQRoutesForms.swift in Sources */,
+				566D2E021E837A6D00B54A60 /* LSQAPILifesquare.swift in Sources */,
+				565960AE1C90079600AF1003 /* LSQHistoryViewController.swift in Sources */,
+				566D2E041E837A8A00B54A60 /* LSQAPIPatientNetwork.swift in Sources */,
+				56E9FAF81C9B6FAA003071FB /* LSQTonedButton.swift in Sources */,
+				562F79571DF9302E0048F105 /* LSQProfileEmergencyViewController.swift in Sources */,
+				561588211DC0139B00CB02B9 /* LSQFormSelectViewController.swift in Sources */,
+				56EEFF6E1E7A439C0057C35F /* LSQPushController.swift in Sources */,
+				566722661DF5EAEC0060E46F /* LSQProfileMedicalContainerViewController.swift in Sources */,
+				562977481DDE28690007AA5D /* LSQCheckoutSuccessViewController.swift in Sources */,
+				561EB0E51DF1516B0000B010 /* LSQUser.swift in Sources */,
+				5675DFF61F324D5400C4AE94 /* LSQOnboardingManager.swift in Sources */,
+				56FC4A5C1E027948004EE99B /* LSQBadgeManager.swift in Sources */,
+				56D93EA81C9E7D78008BF37D /* LSQNearbyViewController.swift in Sources */,
+				5667225B1DF1F9C40060E46F /* LSQScanViewController.swift in Sources */,
+				562F79531DF8EE4C0048F105 /* LSQLifesquareViewController.swift in Sources */,
+				566722591DF1F84B0060E46F /* LSQAPI.swift in Sources */,
+				56FC4A5E1E028C24004EE99B /* LSQInboxViewController.swift in Sources */,
+				5675DFEE1F3031D100C4AE94 /* LSQOnboardingContactsViewController.swift in Sources */,
+				561768FF1DE4F1F1005AD40D /* LSQNetworkSearchResultsViewController.swift in Sources */,
+				568A15DA1E79B8CC00677F6F /* LSQEnablePushViewController.swift in Sources */,
+				56EA3C611C7E30F300F39C4C /* LSQLoginViewController.swift in Sources */,
+				5675DFF01F3031F500C4AE94 /* LSQOnboardingInsuranceViewController.swift in Sources */,
+				5675DFE21F30308900C4AE94 /* LSQWelcomeViewController.swift in Sources */,
+				566D2DFE1E837A1B00B54A60 /* LSQAPIPatient.swift in Sources */,
+				566722611DF3553E0060E46F /* LSQProfileCollectionViewCell.swift in Sources */,
+				56FA30E31C8AA8F0002E8EB7 /* LSQProfileTableViewCell.swift in Sources */,
+				566B10AD1C865EFA0035A196 /* LSQForgotPasswordSuccessViewController.swift in Sources */,
+				56550C6A1E2EC51F007F38D0 /* LSQFormHeightPickerViewController.swift in Sources */,
+				56D998D31F5FC6040004BFDB /* LSQAPIStatic.swift in Sources */,
+				56A92CF51DC7CDC800B74C0B /* LSQCellFormAutocomplete.swift in Sources */,
+				56FB27DE1C7E24B3006A50EB /* LSQProviderCredentialsViewController.swift in Sources */,
+				5675DFE41F3030D400C4AE94 /* LSQOnboardingAccountViewController.swift in Sources */,
+				564C76A01DAEB3A70058E1F0 /* LSQInsuranceViewController.swift in Sources */,
+				5665E8D61DC9469B00E9FF4C /* LSQEditAccountViewController.swift in Sources */,
+				56BEC51F1EDA66BF00C93DDD /* LSQUserPrefs.swift in Sources */,
+				56FA30E11C8A619E002E8EB7 /* LSQAccountViewController.swift in Sources */,
+				56D998D11F5FC4850004BFDB /* LSQTermsViewController.swift in Sources */,
+				566D2E001E837A3900B54A60 /* LSQAPIProvider.swift in Sources */,
+				56A92CEF1DC3CBA800B74C0B /* Forms.swift in Sources */,
+				566FA7C51D9F278400AED406 /* LSQCarePlanRecommendationViewController.swift in Sources */,
+				5675DFEC1F3031AE00C4AE94 /* LSQOnboardingScanLifesquareViewController.swift in Sources */,
+				56E86A521DFB9B8100EA8C91 /* LSQChangePasswordViewController.swift in Sources */,
+				56245ECD1DD26A0300449848 /* LSQCellPrivacyRestrictedItem.swift in Sources */,
+				5674DC0A1DA851E600D4A69E /* LSQPatientContactsViewController.swift in Sources */,
+				561588171DBFFFAE00CB02B9 /* LSQCellFormInput.swift in Sources */,
+				5667225D1DF2250E0060E46F /* LSQPatientSummaryViewController.swift in Sources */,
+				5657FF021F6A2C20001F0941 /* LSQAppearanceManager.swift in Sources */,
+				56143BF81DA2CD1E0030A539 /* LSQExtensions.swift in Sources */,
+				56245ED11DD2873100449848 /* LSQModels.swift in Sources */,
+				56D93EA61C9E6D25008BF37D /* LSQLocationManager.swift in Sources */,
+				561F1EE11F63417C003D29BF /* LSQRouter.swift in Sources */,
+				566D2E0E1E84930100B54A60 /* LSQAPIRequestAdapter.swift in Sources */,
+				5675DFEA1F30318400C4AE94 /* LSQOnboardingPhotoViewController.swift in Sources */,
+				5675DFE01F302CE500C4AE94 /* LSQOnboardingBaseViewController.swift in Sources */,
+				56A92CED1DC3C9EE00B74C0B /* LSQEditCollectionItemViewController.swift in Sources */,
+				5606EB3A1ED8AAF000D21553 /* LSQTouchAuthManager.swift in Sources */,
+				568EF6A81D95A9E0001F7067 /* LSQMessageContactsViewController.swift in Sources */,
+				562F79591DF94BBB0048F105 /* LSQCollectionBaseViewController.swift in Sources */,
+				561F1EE91F634277003D29BF /* LSQRoutesProvider.swift in Sources */,
+				566D2E081E837B5700B54A60 /* LSQAPIDocument.swift in Sources */,
+				566722691DF7426B0060E46F /* LSQUnlockViewController.swift in Sources */,
+				564C769E1DAEAB520058E1F0 /* LSQEmergencyContactViewController.swift in Sources */,
+				561768FB1DE3D24F005AD40D /* LSQConfirmViewController.swift in Sources */,
+				561F1EED1F6345C0003D29BF /* LSQRoutesPermissions.swift in Sources */,
+				565A259D1F6B40FD009A6DE2 /* LSQOnboardingConfirmViewController.swift in Sources */,
+				5699EA661C7E708A00BC3D0E /* LSQAddDocumentViewController.swift in Sources */,
+				566722651DF5EAEC0060E46F /* LSQProfileContactsContainerViewController.swift in Sources */,
+				561F1EE51F634253003D29BF /* LSQRoutesAuth.swift in Sources */,
+				561F1EF91F634C09003D29BF /* LSQRoutesNetworking.swift in Sources */,
+				564C76A21DAEB5F30058E1F0 /* LSQHospitalViewController.swift in Sources */,
+				562F79551DF92FF60048F105 /* LSQProfileEmergencyContainerViewController.swift in Sources */,
+				566722551DF1F6F30060E46F /* LSQCodeEntryViewController.swift in Sources */,
+				5667226B1DF748AC0060E46F /* LSQCompleteRecoveryViewController.swift in Sources */,
+				5675DFE81F30315F00C4AE94 /* LSQOnboardingProfileViewController.swift in Sources */,
+				560E3DFA1C88BD2C00A907B6 /* LSQ.swift in Sources */,
+				566D2DFA1E8374DD00B54A60 /* LSQAPIAuth.swift in Sources */,
+				566D2E0C1E837C0C00B54A60 /* LSQAPITerms.swift in Sources */,
+				566D2E061E837ACE00B54A60 /* LSQAPICareplan.swift in Sources */,
+				5699C0F11C8F5B3C000D9DBE /* LSQCodeEntryView.swift in Sources */,
+				561271751C8FA7C100D49B31 /* LSQHistoryTableViewCell.swift in Sources */,
+				56EAA2051DFF2BBC00963F31 /* Tables.swift in Sources */,
+				561F1EE31F6341FE003D29BF /* LSQRoutesOnboarding.swift in Sources */,
+				56A92CF31DC7C43600B74C0B /* LSQFormAutocompleteViewController.swift in Sources */,
+				56245ECF1DD26A2300449848 /* LSQCellEmptyCollection.swift in Sources */,
+				5615881D1DC0025300CB02B9 /* LSQCellFormCheckbox.swift in Sources */,
+				566D2DFC1E83799500B54A60 /* LSQAPIAccount.swift in Sources */,
+				56CF43D11DFA9AE500E82280 /* LSQFormDatePickerViewController.swift in Sources */,
+				5675DFF21F30321700C4AE94 /* LSQOnboardingPromoViewController.swift in Sources */,
+				564A47F41E5BBA92008FF5CE /* LSQScanImportViewController.swift in Sources */,
+				56506F271E317B5F00F98ECC /* LSQCellFormInputMultiline.swift in Sources */,
+				56828E551C86480700ABA161 /* LSQDocumentViewController.swift in Sources */,
+				561F1EF71F63492B003D29BF /* LSQRoutesTabs.swift in Sources */,
+				56E86A541DFBE63D00EA8C91 /* LSQGoodbyeViewController.swift in Sources */,
+				56FB68741C9227CE00424D93 /* LSQScanHistory.swift in Sources */,
+				561F1EF51F63474C003D29BF /* LSQRoutesAccount.swift in Sources */,
+				5667225F1DF34FCB0060E46F /* LSQPatientsViewController.swift in Sources */,
+				566FA7C31D9F277300AED406 /* LSQCarePlanQuestionGroupViewController.swift in Sources */,
+				566722671DF5EAEC0060E46F /* LSQProfilePersonalContainerViewController.swift in Sources */,
+				567D50C21E03463800D8DD9A /* LSQTabsController.swift in Sources */,
+				565210B51F5B3F1A006CBD09 /* FloatLabelTextField.swift in Sources */,
+				562C01901C82D0D5003A2C9C /* LSQAppDelegate.swift in Sources */,
+				566FA7C11D9F275D00AED406 /* LSQCarePlanIndexViewController.swift in Sources */,
+				561F1EEF1F634604003D29BF /* LSQRoutesPatientNetwork.swift in Sources */,
+				561271771C8FA8D200D49B31 /* LSQLifesquareDetailsViewCell.swift in Sources */,
+				562F795B1DF970DD0048F105 /* LSQPickerDelegate.swift in Sources */,
+				562D6B091F65EB1300C0F0E7 /* LSQOnboardingSuccessViewController.swift in Sources */,
+				561768FD1DE4F1D3005AD40D /* LSQNetworkCollectionViewController.swift in Sources */,
+				56CF43CF1DFA8AE300E82280 /* LSQCellFormDatePicker.swift in Sources */,
+				56A92CF11DC3D08600B74C0B /* LSQCellAddCollectionItem.swift in Sources */,
+				5665E8D41DC93CFD00E9FF4C /* Utils.swift in Sources */,
+				5635A2881DB56FC500B7FD59 /* LSQVitalsPhotoTableViewCell.swift in Sources */,
+				561588111DBF408700CB02B9 /* LSQEditProfileViewController.swift in Sources */,
+				567BA75F1DB6E18B009D3A03 /* LSQProfilePhotoViewController.swift in Sources */,
+				5675DFE61F30313600C4AE94 /* LSQOnboardingLicenseViewController.swift in Sources */,
+				5674DC061DA851A500D4A69E /* LSQPatientPersonalViewController.swift in Sources */,
+				56E3C3011C7FAEDA00B3BF17 /* LSQForgotPasswordViewController.swift in Sources */,
+				5615881B1DC0010F00CB02B9 /* LSQCellFormSelect.swift in Sources */,
+				561F1EF11F634662003D29BF /* LSQRoutesCareplans.swift in Sources */,
+				569D93671C8E1C55005B9034 /* LSQProviderCredentialsSuccessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		662971AD18E6518900A39FDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662971AE18E6518900A39FDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		662971B618E6518900A39FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662971B718E6518900A39FDA /* Base */,
+				662971ED18E6562700A39FDA /* en */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662971D418E6518900A39FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies -Xfrontend -warn-long-function-bodies=250";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Debug;
+		};
+		662971D518E6518900A39FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_SWIFT_FLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662971D718E6518900A39FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HealthNotifier/HealthNotifier.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/HealthNotifier/HealthNotifier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthnotifier.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		662971D818E6518900A39FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = HealthNotifier/HealthNotifier.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/HealthNotifier/HealthNotifier-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.healthnotifier.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6629719C18E6518900A39FDA /* Build configuration list for PBXProject "HealthNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662971D418E6518900A39FDA /* Debug */,
+				662971D518E6518900A39FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662971D618E6518900A39FDA /* Build configuration list for PBXNativeTarget "HealthNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662971D718E6518900A39FDA /* Debug */,
+				662971D818E6518900A39FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6629719918E6518900A39FDA /* Project object */;
+}
